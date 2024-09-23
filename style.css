@@ -1,0 +1,111 @@
+
+.container {
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #4567b7, #6495ed);
+    margin:20px;
+    border-radius: 15px;
+}
+
+input {
+    width:80%;
+    margin:10px;
+    height:50px;
+    padding:20px;
+    border:1px solid hsl(0, 14%, 15%);
+    border-radius: 50px;
+    border-width: 0px;
+    
+}
+
+
+
+.icon-edit {
+    font-size:24px;
+}
+
+.searchBtn {
+    background-color: whitesmoke ;
+    border-width:0px;
+    padding:10px;
+    border-radius:50%;
+    color:#6495ed;
+    cursor: pointer;
+    
+}
+
+.searchBtn:hover {
+    background-color: #6495ed;
+    color:white;
+}
+
+.searchBtn:active {
+    background-color: hsl(219, 79%, 76%);
+    color:white;
+}
+
+
+
+.weather-details {
+    text-align: center;
+    margin:20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius:20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+h1 {
+    font-size:50px;
+    color:white;
+    font-weight:bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size:50px;
+    font-weight:550;
+    color:rgb(211, 211, 211);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.weather-img {
+    width:50%;
+}
+
+.card {
+    width:40%;
+    padding:20px;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.27);
+    border-radius:20px;
+    margin:20px;
+}
+
+.card-img {
+    height:100px;
+    width:100px;
+    margin: auto;
+    
+}
+
+.card h1 {
+    font-size: 24px;
+    margin:10px;
+    padding-top:30px;
+}
+
+.card p {
+    font-size: 30px;
+}
+
+.tempDisplay {
+    font-size:70px;
+}
